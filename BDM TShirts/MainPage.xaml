@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BDM_TShirts.MainPage">
+
+    <StackLayout  BackgroundColor="Gray">
+
+        <Frame Margin="0,1,0,0" BackgroundColor="Silver" Padding="10,0" HorizontalOptions="Center" CornerRadius="90">
+                <Label Text="BDM Fashions" HorizontalTextAlignment="Center" TextColor="WhiteSmoke" FontSize="30" FontAttributes="Bold"/>
+        </Frame>
+       
+            <Image Source="Tshirt.png" Aspect="AspectFill" HorizontalOptions="Center" VerticalOptions="Start" HeightRequest="80"/>
+            <Label Text="Name" HorizontalOptions="Center" FontSize="30" TextColor="Black" FontAttributes="Bold"/>
+            <Entry Placeholder="Enter Name Here..." PlaceholderColor="DarkGray"/>
+            <Label Text="Gender" HorizontalOptions="Center" FontSize="30" TextColor="Black" FontAttributes="Bold"/>
+            <Entry Placeholder="Enter Gender Here..." PlaceholderColor="DarkGray"/>
+            <Label Text="Size" HorizontalOptions="Center" FontSize="30" TextColor="Black" FontAttributes="Bold"/>
+            <Entry Placeholder="Enter Size Here..." PlaceholderColor="DarkGray"/>
+            <Label Text="Color" HorizontalOptions="Center" FontSize="30" TextColor="Black" FontAttributes="Bold"/>
+            <Entry Placeholder="Enter Colour Here..." PlaceholderColor="DarkGray" />
+            <Label Text="Address" HorizontalOptions="Center" FontSize="30" TextColor="Black" FontAttributes="Bold"/>
+            <Entry Placeholder="Enter Address Here..." PlaceholderColor="DarkGray" />
+            <Button Text="SAVE" HorizontalOptions="Center"/>
+        
+    </StackLayout>
+
+</ContentPage>
